@@ -1,0 +1,1 @@
+jQuery((function(n){n(".all-notes-container").on("click","#accordion-Historical .llmssn-icon-arrow",(function(o){console.log("this");var c=n(this);c.parent().next().hasClass("accordian-content")&&c.parent().next().slideToggle(500,(function(){c.parents("#accordion-Historical").toggleClass("ldc-expanded")}))}))}));

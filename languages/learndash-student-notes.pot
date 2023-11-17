@@ -1,0 +1,512 @@
+# Copyright (C) 2023 LearnDash
+# This file is distributed under the same license as the Notes by LearnDash plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Notes by LearnDash 1.0.3\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/learndash-student-notes\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-10-03T15:25:56+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.8.1\n"
+"X-Domain: learndash_student_notes\n"
+
+#. Plugin Name of the plugin
+msgid "Notes by LearnDash"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://www.learndash.com/notes-by-learndash/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Add Learner Notes to Learndash and communicate with your students"
+msgstr ""
+
+#. Author of the plugin
+msgid "LearnDash"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://www.learndash.com/"
+msgstr ""
+
+#: admin/class-learndash-notes-settings-page.php:33
+msgctxt "Notes Tab Label"
+msgid "Notes"
+msgstr ""
+
+#: admin/class-learndash-notes-upgrade.php:141
+msgid "Notes by LearnDash needs to upgrade the database. It is strongly recommended you backup your database first."
+msgstr ""
+
+#: admin/class-learndash-notes-upgrade.php:155
+msgctxt "Run database upgrade button text"
+msgid "Upgrade"
+msgstr ""
+
+#: admin/class-learndash-notes-upgrade.php:173
+msgid "Notes by LearnDash has successfully upgraded!"
+msgstr ""
+
+#: admin/sections/class-learndash-notes-settings-section-email.php:63
+msgid "Email"
+msgstr ""
+
+#: admin/sections/class-learndash-notes-settings-section-email.php:110
+msgid "Instructor Email Subject"
+msgstr ""
+
+#: admin/sections/class-learndash-notes-settings-section-email.php:117
+msgid "Instructor Email Body"
+msgstr ""
+
+#: admin/sections/class-learndash-notes-settings-section-email.php:122
+#: admin/sections/class-learndash-notes-settings-section-email.php:160
+msgid "Available merge codes:"
+msgstr ""
+
+#: admin/sections/class-learndash-notes-settings-section-email.php:148
+msgid "Learner Email Subject"
+msgstr ""
+
+#: admin/sections/class-learndash-notes-settings-section-email.php:155
+msgid "Learner Email Body"
+msgstr ""
+
+#: admin/sections/class-learndash-notes-settings-section-features.php:43
+msgid "Features"
+msgstr ""
+
+#: admin/sections/class-learndash-notes-settings-section-features.php:108
+msgid "Add editor toolbar"
+msgstr ""
+
+#: admin/sections/class-learndash-notes-settings-section-features.php:117
+msgid "Show character count in the rich text area"
+msgstr ""
+
+#: admin/sections/class-learndash-notes-settings-section-features.php:126
+msgid "Add option to notify the Instructor"
+msgstr ""
+
+#: admin/sections/class-learndash-notes-settings-section-features.php:127
+msgid "Ensure that you first configure your email templates under the \"Email\" tab above before enabling this feature."
+msgstr ""
+
+#. translators: %s is the Custom Label for Course.
+#: admin/sections/class-learndash-notes-settings-section-features.php:138
+msgid "Automatically include the [llms_add_new_note] shortcode when viewing %s content"
+msgstr ""
+
+#. translators: %s is the Custom Label for Course.
+#: admin/sections/class-learndash-notes-settings-section-features.php:151
+msgid "Automatically include the [llms_add_new_note_popup] shortcode when viewing %s content"
+msgstr ""
+
+#. translators: %s is the Custom Label for Course.
+#: admin/sections/class-learndash-notes-settings-section-features.php:164
+msgid "Automatically include the [llms_notes_list] shortcode when viewing %s content"
+msgstr ""
+
+#. translators: %s is the Custom Label for Course.
+#: admin/sections/class-learndash-notes-settings-section-features.php:177
+msgid "Automatically include the [llms_full_notes_list] shortcode when viewing %s content"
+msgstr ""
+
+#: admin/sections/class-learndash-notes-settings-section-features.php:188
+msgid "Allow Instructors the ability to view Notes that were not sent to them"
+msgstr ""
+
+#: admin/sections/class-learndash-notes-settings-section-general.php:41
+msgid "How To"
+msgstr ""
+
+#: admin/sections/class-learndash-notes-settings-section-general.php:66
+msgid "How to use the Learner Notes shortcodes in any posts and pages"
+msgstr ""
+
+#: admin/sections/class-learndash-notes-settings-section-general.php:80
+msgid "How to enable the Learner Notes Notification Icon"
+msgstr ""
+
+#: admin/sections/class-learndash-notes-settings-section-general.php:94
+msgid "Watch this video playlist to understand how it all works and see demonstrations for each version update"
+msgstr ""
+
+#: admin/sections/class-learndash-notes-settings-section-labels.php:36
+msgid "Labels"
+msgstr ""
+
+#: admin/sections/class-learndash-notes-settings-section-labels.php:71
+msgid "Type note title"
+msgstr ""
+
+#: admin/sections/class-learndash-notes-settings-section-labels.php:72
+msgid "Sum of Characters"
+msgstr ""
+
+#: admin/sections/class-learndash-notes-settings-section-labels.php:73
+msgid "Notify Instructor"
+msgstr ""
+
+#: admin/sections/class-learndash-notes-settings-section-labels.php:74
+msgid "Instructor was notified"
+msgstr ""
+
+#: admin/sections/class-learndash-notes-settings-section-labels.php:75
+msgid "Note Added Successfully"
+msgstr ""
+
+#: admin/sections/class-learndash-notes-settings-section-labels.php:76
+msgid "No Notes Added"
+msgstr ""
+
+#: admin/sections/class-learndash-notes-settings-section-labels.php:77
+msgid "Added"
+msgstr ""
+
+#: admin/sections/class-learndash-notes-settings-section-labels.php:78
+msgid "Submit"
+msgstr ""
+
+#: admin/sections/class-learndash-notes-settings-section-labels.php:79
+msgid "My Historical Notes"
+msgstr ""
+
+#: admin/sections/class-learndash-notes-settings-section-labels.php:80
+msgid "All My Notes"
+msgstr ""
+
+#: admin/sections/class-learndash-notes-settings-section-labels.php:81
+msgid "No Notes Added Anywhere"
+msgstr ""
+
+#: admin/sections/class-learndash-notes-settings-section-labels.php:82
+msgid "Delete"
+msgstr ""
+
+#: admin/sections/class-learndash-notes-settings-section-labels.php:83
+msgid "Note Deleted"
+msgstr ""
+
+#: admin/sections/class-learndash-notes-settings-section-labels.php:84
+msgid "Are you sure? This can not be undone."
+msgstr ""
+
+#: admin/sections/class-learndash-notes-settings-section-labels.php:85
+msgid "Download"
+msgstr ""
+
+#: admin/sections/class-learndash-notes-settings-section-labels.php:86
+msgid "Related"
+msgstr ""
+
+#: admin/sections/class-learndash-notes-settings-section-labels.php:87
+msgid "Open"
+msgstr ""
+
+#: admin/sections/class-learndash-notes-settings-section-labels.php:110
+msgid "Change the placeholder text in the Note title area in the [llms_add_new_note] shortcode"
+msgstr ""
+
+#: admin/sections/class-learndash-notes-settings-section-labels.php:116
+msgid "Change the \"Sum of Characters\" text located below the rich text area in the [llms_add_new_note] shortcode"
+msgstr ""
+
+#: admin/sections/class-learndash-notes-settings-section-labels.php:122
+msgid "Change the \"Nofiy Instructor\" text located below the new note editor in the [llms_add_new_note] shortcode"
+msgstr ""
+
+#: admin/sections/class-learndash-notes-settings-section-labels.php:128
+msgid "Change the \"Instructor was notified\" message"
+msgstr ""
+
+#: admin/sections/class-learndash-notes-settings-section-labels.php:134
+msgid "Change the \"Note Added Successfully\" message text for the [llms_add_new_note] shortcode"
+msgstr ""
+
+#: admin/sections/class-learndash-notes-settings-section-labels.php:140
+msgid "Change the \"No Notes Added\" message text for the [llms_add_new_note] shortcode"
+msgstr ""
+
+#: admin/sections/class-learndash-notes-settings-section-labels.php:146
+msgid "Change the \"Added\" text for the [llms_add_new_note] shortcode"
+msgstr ""
+
+#: admin/sections/class-learndash-notes-settings-section-labels.php:152
+msgid "Change the \"Save Note\" button text for the [llms_add_new_note] shortcode"
+msgstr ""
+
+#: admin/sections/class-learndash-notes-settings-section-labels.php:158
+msgid "Change the \"My Historical Notes\" text header for the [llms_notes_list] shortcode"
+msgstr ""
+
+#: admin/sections/class-learndash-notes-settings-section-labels.php:164
+msgid "Change the \"All My Notes\" text header for the [llms_full_notes_list] shortcode"
+msgstr ""
+
+#: admin/sections/class-learndash-notes-settings-section-labels.php:170
+msgid "Change the \"No Notes Added Anywhere\" message text for the [llms_notes_list] and the [llms_full_notes_list] shortcodes"
+msgstr ""
+
+#: admin/sections/class-learndash-notes-settings-section-labels.php:176
+msgid "Change the \"Delete\" link text for the [llms_notes_list] and the [llms_full_notes_list] shortcodes"
+msgstr ""
+
+#: admin/sections/class-learndash-notes-settings-section-labels.php:182
+msgid "Change the \"Note Deleted\" message text for the [llms_notes_list] and the [llms_full_notes_list] shortcodes"
+msgstr ""
+
+#: admin/sections/class-learndash-notes-settings-section-labels.php:188
+msgid "Change the \"Are you sure? This can not be undone.\" message text for the [llms_notes_list] and the [llms_full_notes_list] shortcodes"
+msgstr ""
+
+#: admin/sections/class-learndash-notes-settings-section-labels.php:194
+msgid "Change the \"Download\" link text for the [llms_notes_list] and the [llms_full_notes_list] shortcodes"
+msgstr ""
+
+#: admin/sections/class-learndash-notes-settings-section-labels.php:200
+msgid "Change the \"Related\" text for the [llms_notes_list] and the [llms_full_notes_list] shortcodes"
+msgstr ""
+
+#: admin/sections/class-learndash-notes-settings-section-labels.php:206
+msgid "Change the \"Open\" text for the [llms_full_notes_list] shortcode"
+msgstr ""
+
+#: admin/sections/class-learndash-notes-settings-section-styling.php:36
+msgid "Styling"
+msgstr ""
+
+#: admin/sections/class-learndash-notes-settings-section-styling.php:99
+msgid "Change the Font Awesome floating icon for the [llms_add_new_note] and [llms_add_new_note_popup] shortcodes"
+msgstr ""
+
+#: admin/sections/class-learndash-notes-settings-section-styling.php:105
+msgid "Select a color for the floating Notes icon"
+msgstr ""
+
+#: admin/sections/class-learndash-notes-settings-section-styling.php:111
+msgid "Select a size in px, pt, or em for the floating Notes icon"
+msgstr ""
+
+#: admin/sections/class-learndash-notes-settings-section-styling.php:117
+msgid ""
+"Change the Font Awesome icon in the [llms_full_notes_list] shortcode\n"
+"\t\t\t\t\t"
+msgstr ""
+
+#: admin/sections/class-learndash-notes-settings-section-styling.php:127
+msgid "Select a color for the notification icon"
+msgstr ""
+
+#: admin/sections/class-learndash-notes-settings-section-styling.php:133
+msgid "Select primary color for the Notes shortcode headers"
+msgstr ""
+
+#: admin/views/how-to/enable-notification-icon.php:13
+msgid "Notes by LearnDash has a notification icon that you can add to your websites header menu."
+msgstr ""
+
+#: admin/views/how-to/enable-notification-icon.php:17
+msgid "To create this menu item in your website header, perform the following:"
+msgstr ""
+
+#: admin/views/how-to/enable-notification-icon.php:22
+msgid "Visit your dashboard > Appearance > Menus page choose the menu you wold like to add the icon into."
+msgstr ""
+
+#: admin/views/how-to/enable-notification-icon.php:25
+msgid "Select the \"Custom Links\" menu item located in your Add menu items column."
+msgstr ""
+
+#. translators: %s is the [llms_full_notes_list] shortcode wrapped in <code>.
+#: admin/views/how-to/enable-notification-icon.php:31
+msgid "Add the link for the page that you added the %s shortcode to into the URL field."
+msgstr ""
+
+#: admin/views/how-to/enable-notification-icon.php:37
+msgid "Give this menu item a Navigation label to be used when the icon is hovered over with a mouse cursor."
+msgstr ""
+
+#: admin/views/how-to/enable-notification-icon.php:40
+msgid "Click on the [Add to Menu] button to add this to th ebottom of your menu."
+msgstr ""
+
+#: admin/views/how-to/enable-notification-icon.php:43
+msgid "Click on the down-arrow of this menu item to open its properties."
+msgstr ""
+
+#. translators: %s is the llmssn-bell-icon class used to identify the Menu Item, surrounded by <code>.
+#: admin/views/how-to/enable-notification-icon.php:49
+msgid "Add %s into the CSS Classes (optional) field."
+msgstr ""
+
+#: admin/views/how-to/enable-notification-icon.php:55
+msgid "If this field does not show, enable it by clicking \"Screen Options\" at the top of your screen and checking the box for \"CSS Classes\"."
+msgstr ""
+
+#: admin/views/how-to/enable-notification-icon.php:60
+msgid "Collapse this menu item and drag it to your desired location in the menu."
+msgstr ""
+
+#: admin/views/how-to/enable-notification-icon.php:63
+msgid "Click on the [Save Menu] button to complete this operation."
+msgstr ""
+
+#: admin/views/how-to/enable-notification-icon.php:68
+msgid "With this completed, you can now visit the Styling tab above to change the default icon and its color."
+msgstr ""
+
+#. translators: %s is the [llms_add_new_note] shortcode wrapped in <code>.
+#: admin/views/how-to/shortcodes.php:19
+msgid "Add the %s shortcode into any post or page to let the user add a note."
+msgstr ""
+
+#: admin/views/how-to/shortcodes.php:26
+msgid "This shortcode will place the Add New Note form into the page or post content."
+msgstr ""
+
+#. translators: %s is the [llms_add_new_note_popup] shortcode wrapped in <code>.
+#: admin/views/how-to/shortcodes.php:38
+msgid "Add the %s shortcode into any post or page to let the user add a note using a popup."
+msgstr ""
+
+#: admin/views/how-to/shortcodes.php:45
+msgid "This shortcode will create a Add New Note icon into the page or post content. When clicked, that icon will open the Add New Note form in a popup."
+msgstr ""
+
+#. translators: %s is the [llms_notes_list] shortcode wrapped in <code>.
+#: admin/views/how-to/shortcodes.php:56
+msgid "Add the %s shortcode into any post or page to let the user see and action their previous notes in that post or page."
+msgstr ""
+
+#. translators: %s is the [llms_full_notes_list] shortcode wrapped in <code>.
+#: admin/views/how-to/shortcodes.php:66
+msgid "Add the %s shortcode into any post or page to let the user see and action their previous notes everywhere."
+msgstr ""
+
+#: inc/columns-filters.php:43
+msgid "Note Excerpt"
+msgstr ""
+
+#: inc/columns-filters.php:44
+msgid "Learner Name"
+msgstr ""
+
+#: inc/columns-filters.php:45
+msgid "Type"
+msgstr ""
+
+#: inc/columns-filters.php:46
+msgid "Title"
+msgstr ""
+
+#: inc/columns-filters.php:47
+msgid "Date"
+msgstr ""
+
+#: inc/columns-filters.php:48
+msgid "Actions"
+msgstr ""
+
+#: inc/columns-filters.php:89
+msgid "Responded"
+msgstr ""
+
+#: inc/columns-filters.php:91
+msgid "Respond"
+msgstr ""
+
+#. translators: %s is the LearnDash custom label for Courses.
+#: inc/columns-filters.php:124
+msgid "All %s"
+msgstr ""
+
+#: inc/columns-filters.php:160
+msgid "All Lessons "
+msgstr ""
+
+#: inc/columns-filters.php:189
+msgid "Filter by date"
+msgstr ""
+
+#: inc/columns-filters.php:192
+msgid "All dates"
+msgstr ""
+
+#: inc/functions.php:48
+#: learndash-student-notes.php:256
+#: learndash-student-notes.php:340
+msgid "Notes"
+msgstr ""
+
+#: inc/functions.php:49
+msgid "Note"
+msgstr ""
+
+#: inc/post-meta.php:26
+msgid "Learner's Note"
+msgstr ""
+
+#: inc/post-meta.php:30
+msgid "Instructor reply"
+msgstr ""
+
+#: inc/post-meta.php:69
+msgid "Type:"
+msgstr ""
+
+#: inc/post-meta.php:87
+msgid "Notify Instructor:"
+msgstr ""
+
+#: inc/post-meta.php:91
+msgid "Yes"
+msgstr ""
+
+#: inc/post-meta.php:93
+msgid "No"
+msgstr ""
+
+#: inc/post-meta.php:98
+msgid "Notify Learner:"
+msgstr ""
+
+#: inc/post-meta.php:105
+msgid "Instructor Response:"
+msgstr ""
+
+#: inc/shortcodes.php:47
+#: inc/shortcodes.php:145
+msgid "notes default title"
+msgstr ""
+
+#: learndash-student-notes.php:32
+msgid "LearnDash LMS"
+msgstr ""
+
+#: learndash-student-notes.php:40
+msgid "Notes by LearnDash requires the following plugin(s) to be active:"
+msgstr ""
+
+#: learndash-student-notes.php:117
+msgid "Notes by LearnDash requires that LearnDash LMS is installed and activated."
+msgstr ""
+
+#: learndash-student-notes.php:143
+msgid "Unfortunately, it appears that the authentication token you have provided is invalid. We kindly request that you re-download the package and attempt to install again. If the issue persists, please do not hesitate to contact our support team for further assistance."
+msgstr ""
+
+#: learndash-student-notes.php:268
+#: learndash-student-notes.php:357
+msgid "Settings"
+msgstr ""
+
+#: templates/ajax/full-loop.php:78
+#: templates/ajax/loop.php:72
+msgid "Mark as read"
+msgstr ""

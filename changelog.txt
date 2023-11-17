@@ -1,0 +1,18 @@
+= [1.0.3] =
+
+- Fix: Prevent fatal error when LearnDash LMS is deactivated while Notes by LearnDash is still active.
+
+= [1.0.2] =
+
+- Fix: Removes code from downloaded Notes
+- Fix: The minimize button now shows for the `[llms_add_new_note_popup]` shortcode with the TwentyTwenty Theme active
+- Fix: Undefined array key when creating a Course
+- Fix: Undefined array key when injecting a Menu Item into the Navigation Block
+
+= [1.0.1] =
+
+- Fix: Ensure Settings from a different Tab don't get cleared on save
+
+= [1.0.0] =
+
+- Initial release
